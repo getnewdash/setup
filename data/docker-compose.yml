@@ -40,7 +40,7 @@ services:
       timeout: 5s
       retries: 5
   postgres:
-    image: postgres:9.6-alpine
+    image: postgres:13-alpine
     env_file: /opt/redash/env
     volumes:
       - /opt/redash/postgres-data:/var/lib/postgresql/data
