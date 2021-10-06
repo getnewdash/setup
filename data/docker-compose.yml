@@ -1,6 +1,6 @@
 version: "2.1"
 x-redash-service: &redash-service
-  image: redash/redash:10.0.0-beta.b49597
+  image: redash/redash:10.0.0.b50363
   depends_on:
     redis:
       condition: service_healthy
